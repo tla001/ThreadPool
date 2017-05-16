@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/threadpool/ThreadPool.h
+stdio.h
+-
+pthread.h
+-
+unistd.h
+-
+sys/types.h
+-
+queue
+-
+string
+-
+map
+-
+vector
+-
+
+/home/tla001/cworks/ThreadPool/main.cpp
+iostream
+-
+threadpool/ThreadPool.h
+/home/tla001/cworks/ThreadPool/threadpool/ThreadPool.h
+

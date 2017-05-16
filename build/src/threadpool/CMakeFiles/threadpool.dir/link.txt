@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libthreadpool.a  CMakeFiles/threadpool.dir/ThreadPool.cpp.o
+/usr/bin/ranlib ../../../lib/libthreadpool.a
